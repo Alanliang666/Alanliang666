@@ -1,7 +1,7 @@
 # Hi there, I'm Alan Liang! 👋
 ### 🚀 Aspiring QA Engineer | Python Developer | Data Enthusiast
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-blue?style=flat&logo=linkedin)](www.linkedin.com/in/alan-liang-958817226)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/alan-liang-958817226)
 [![Email](https://img.shields.io/badge/Email-Contact_me-c14438?style=flat&logo=gmail)](mailto:alanliang0428@gmail.com)
 
 > Transitioning from **Advertising Optimization** to **Software Quality Assurance**. I bring a unique analytical perspective to code—combining data sensitivity with robust algorithmic logic.
