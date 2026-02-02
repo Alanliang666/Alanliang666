@@ -54,8 +54,8 @@ Here are a few projects that demonstrate my ability to handle complex logic and 
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="[https://github-readme-stats.vercel.app/api?username=alanliang666&show_icons=true&theme=radical&count_private=true](https://github-readme-stats.vercel.app/api?username=alanliang666&show_icons=true&theme=radical&count_private=true)" height="150" alt="My GitHub Stats" />
-  <img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=alanliang666&layout=compact&theme=radical](https://github-readme-stats.vercel.app/api/top-langs/?username=alanliang666&layout=compact&theme=radical)" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alanliang666&show_icons=true&theme=radical&count_private=true" height="150" alt="My GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alanliang666&layout=compact&theme=radical" height="150" alt="Top Languages" />
 </div>
 
 ---
