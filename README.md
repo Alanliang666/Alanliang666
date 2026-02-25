@@ -60,4 +60,8 @@ Here are a few projects that demonstrate my ability to handle complex logic and 
 
 ---
 
+## ⭐ Leetcode stats
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/Alanliang666)
+
 _Thanks for visiting! Feel free to check out my repositories and critique my code. I'm always open to feedback._
