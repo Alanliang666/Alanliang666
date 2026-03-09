@@ -1,21 +1,21 @@
 # Hi there, I'm Alan Liang! 👋
-### 🚀 Aspiring QA Engineer | Python Developer | Data Enthusiast
+### 🚀 Software Engineer | Python Developer | Data Enthusiast
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/alan-liang-958817226)
 [![Email](https://img.shields.io/badge/Email-Contact_me-c14438?style=flat&logo=gmail)](mailto:alanliang0428@gmail.com)
 
-> Transitioning from **Advertising Optimization** to **Software Quality Assurance**. I bring a unique analytical perspective to code—combining data sensitivity with robust algorithmic logic.
+> Transitioning from **Advertising Optimization** to **Software Engineering**. I bring a unique analytical perspective to code—combining data sensitivity with robust algorithmic logic to build efficient and scalable software solutions.
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a self-taught developer actively seeking opportunities in **QA Engineering** and **Test Automation**.
-My background in **Advertising Optimization** trained me to analyze complex datasets, identify anomalies, and optimize performance metrics—skills I now apply to software testing and development.
+I am a passionate developer actively seeking opportunities as a **Software Engineer**. 
+My background in **Advertising Optimization** trained me to analyze complex datasets, identify system bottlenecks, and optimize performance metrics—skills I now apply to architecting robust software, automating workflows, and optimizing code efficiency.
 
-* 🔭 I’m currently building: **Automated testing scripts & Python portfolio projects**
-* 🌱 I’m currently learning: **Selenium, Pytest, and CI/CD pipelines**
-* 🧩 My strength: **Finding edge cases**, debugging complex logic, and optimizing code efficiency.
+* 🔭 I’m currently building: **AdOps Toolkit** (Automating URL validation for ad campaigns) & Python portfolio projects.
+* 🌱 I’m currently learning: **Software Development Best Practices (CI/CD pipelines, Git workflows, TDD) & System Design.**
+* 🧩 My strength: **Designing scalable logic, optimizing algorithms (Big O), and writing clean, maintainable code.**
 
 ---
 
@@ -24,30 +24,30 @@ My background in **Advertising Optimization** trained me to analyze complex data
 | Domain | Technologies |
 | :--- | :--- |
 | **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| **CS Concepts** | Data Structures (Hash Maps), Algorithms, OOP, Big O Analysis |
-| **Tools** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) PyCharm, Terminal/CLI |
-| **QA Mindset** | Unit Testing Principles, Boundary Value Analysis, Debugging |
+| **CS Concepts** | Data Structures (Hash Maps, Trees), Algorithms, Object-Oriented Programming (OOP), Big O Analysis |
+| **Tools & DevOps** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) GitHub Actions, CI/CD, PyCharm, Terminal/CLI |
+| **Engineering Mindset** | Test-Driven Development (TDD), Code Refactoring, Workflow Automation |
 
 ---
 
-## 🏆 Featured Projects (QA & Dev Focus)
+## 🏆 Featured Projects (Engineering Focus)
 
-Here are a few projects that demonstrate my ability to handle complex logic and data:
+Here are a few projects that demonstrate my ability to handle complex logic, data structures, and automation:
 
-### 1. [StanCodoshop (Image Processing Logic)](https://github.com/alanliang666/stancodeproject)
-> *Demonstrates: Algorithmic Thinking & Anomaly Detection*
-* Built a tool to remove "ghosting" objects from images using pixel-level analysis.
-* **QA Highlight:** Implemented logic to compare multiple data points (images) and filter out outliers (moving objects) to reconstruct the "perfect" background.
+### 1. [AdOps Toolkit (Advertising Automation)](https://github.com/Alanliang666/AdOps-Toolkit)
+> *Demonstrates: Workflow Automation, CI/CD & Practical Problem Solving*
+* Built a Python-based utility to automate URL validation and data checking for digital advertising campaigns, significantly reducing manual verification time.
+* **Engineering Highlight:** Integrated GitHub Actions for CI/CD to ensure code reliability, implementing robust error handling for real-world data inconsistencies.
 
-### 2. [Breakout Arcade Game](https://github.com/alanliang666/stancodeproject)
-> *Demonstrates: Object-Oriented Programming (OOP) & Collision Testing*
-* Developed a full-featured arcade game with a custom physics engine.
-* **QA Highlight:** Solved the critical "sticky paddle" bug by implementing strict velocity direction checks and boundary value analysis for collision detection.
+### 2. [Computer Vision From Scratch](https://github.com/alanliang666/cv-from-scratch-python)
+> *Demonstrates: Algorithmic Design, Array Manipulation & Low-level Data Processing*
+* Developed a suite of image processing algorithms (including ghosting removal, fire detection, and custom blurring) entirely from scratch, processing multi-dimensional arrays without relying on high-level CV libraries like OpenCV.
+* **Engineering Highlight:** Implemented complex nested iterations and mathematical models (e.g., pixel-distance algorithms) to filter out dynamic anomalies, demonstrating a strong grasp of underlying data structures and algorithm optimization.
 
 ### 3. [Baby Names Data Analyzer](https://github.com/alanliang666/stancodeproject)
-> *Demonstrates: Data Validation & Efficiency*
-* Processed large-scale raw text datasets using nested dictionaries for **O(1)** lookup speed.
-* **QA Highlight:** Handled inconsistent data formats and implemented case-insensitive search validation to ensure robust user input handling.
+> *Demonstrates: Data Structures & Algorithm Optimization*
+* Processed large-scale raw text datasets using advanced data structures.
+* **Engineering Highlight:** Utilized nested dictionaries to achieve **O(1)** lookup speed, optimizing data retrieval processes and implementing robust input validation to handle inconsistent formats gracefully.
 
 ---
 
