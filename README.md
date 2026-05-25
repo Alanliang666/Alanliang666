@@ -1,21 +1,29 @@
 # Hi there, I'm Alan Liang! 👋
-### 🚀 Software Engineer | Python Developer | Data Enthusiast
+### 🚀 Software Engineer | Python Developer | ML/DL Learner
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/alan-liang-958817226)
 [![Email](https://img.shields.io/badge/Email-Contact_me-c14438?style=flat&logo=gmail)](mailto:alanliang0428@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-alanlinag-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/alanlinag)
 
-> Transitioning from **Advertising Optimization** to **Software Engineering**. I bring a unique analytical perspective to code—combining data sensitivity with robust algorithmic logic to build efficient and scalable software solutions.
+> Used to spend my days optimizing ad campaigns. Got tired of the spreadsheets,
+> picked up Python, and never looked back. These days I'm deep into LLMs and RAG —
+> building things from scratch is still my favorite way to actually understand how they work.
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a passionate developer actively seeking opportunities as a **Software Engineer**. 
-My background in **Advertising Optimization** trained me to analyze complex datasets, identify system bottlenecks, and optimize performance metrics—skills I now apply to architecting robust software, automating workflows, and optimizing code efficiency.
+Python developer who came from the data side of things — 
+spent years in ad-tech staring at numbers, and eventually decided 
+I'd rather be the one building the tools. 
+Now I work on AI applications, mostly around LLMs and RAG pipelines.
 
-* 🔭 I’m currently building: **AdOps Toolkit** (Automating URL validation for ad campaigns) & Python portfolio projects.
-* 🌱 I’m currently learning: **Software Development Best Practices (CI/CD pipelines, Git workflows, TDD) & System Design.**
-* 🧩 My strength: **Designing scalable logic, optimizing algorithms (Big O), and writing clean, maintainable code.**
+* Currently building: **MarTech RAG Generator** — an end-to-end RAG pipeline 
+  that helps marketers generate content using their own data
+* Going deep on: **ML/DL fundamentals** — how transformers actually work, 
+  what embeddings really represent, and why my vector search keeps returning garbage
+* I think good code should be: readable first, correct second, fast third — 
+  in that order
 
 ---
 
@@ -23,31 +31,48 @@ My background in **Advertising Optimization** trained me to analyze complex data
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| **CS Concepts** | Data Structures (Hash Maps, Trees), Algorithms, Object-Oriented Programming (OOP), Big O Analysis |
-| **Tools & DevOps** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) GitHub Actions, CI/CD, PyCharm, Terminal/CLI |
-| **Engineering Mindset** | Test-Driven Development (TDD), Code Refactoring, Workflow Automation |
+| **Languages** | Python |
+| **AI / RAG** | LlamaIndex, ChromaDB, Gemini API (LLM + Embedding), RAG Pipeline Design |
+| **Backend** | FastAPI, Celery, REST API |
+| **DevOps & Cloud** | Docker, GitHub Actions CI/CD, GCP Cloud Run, Artifact Registry |
+| **Concepts** | OOP, Clean Code, System Design, Async Task Queue |
 
 ---
 
-## 🏆 Featured Projects (Engineering Focus)
+## 🏆 Featured Projects
 
-Here are a few projects that demonstrate my ability to handle complex logic, data structures, and automation:
+### 1. [MarTech RAG Generator](https://github.com/Alanliang666/MarTech-RAG-Generator)
+> *FastAPI · LlamaIndex · ChromaDB · Gemini · Celery · Docker · GCP Cloud Run*
 
-### 1. [AdOps Toolkit (Advertising Automation)](https://github.com/Alanliang666/AdOps-Toolkit)
-> *Demonstrates: Workflow Automation, CI/CD & Practical Problem Solving*
-* Built a Python-based utility to automate URL validation and data checking for digital advertising campaigns, significantly reducing manual verification time.
-* **Engineering Highlight:** Integrated GitHub Actions for CI/CD to ensure code reliability, implementing robust error handling for real-world data inconsistencies.
+A production-ready RAG microservice that lets marketers stop writing ad copy from scratch.
+Feed it your past campaigns, ask for new copy — it pulls the relevant context and generates 
+5 variations using Gemini 2.5 Flash.
 
-### 2. [Computer Vision From Scratch](https://github.com/alanliang666/cv-from-scratch-python)
-> *Demonstrates: Algorithmic Design, Array Manipulation & Low-level Data Processing*
-* Developed a suite of image processing algorithms (including ghosting removal, fire detection, and custom blurring) entirely from scratch, processing multi-dimensional arrays without relying on high-level CV libraries like OpenCV.
-* **Engineering Highlight:** Implemented complex nested iterations and mathematical models (e.g., pixel-distance algorithms) to filter out dynamic anomalies, demonstrating a strong grasp of underlying data structures and algorithm optimization.
+* Built an async task queue with **Celery** so heavy LLM calls don't block the API
+* Containerized with **Docker** and deployed to **GCP Cloud Run** via GitHub Actions CI/CD
+* Used **LlamaIndex + ChromaDB** for vector storage and similarity search on historical ad data
 
-### 3. [Baby Names Data Analyzer](https://github.com/alanliang666/stancodeproject)
-> *Demonstrates: Data Structures & Algorithm Optimization*
-* Processed large-scale raw text datasets using advanced data structures.
-* **Engineering Highlight:** Utilized nested dictionaries to achieve **O(1)** lookup speed, optimizing data retrieval processes and implementing robust input validation to handle inconsistent formats gracefully.
+### 2. [Argos Poly — Polymarket Arbitrage Scanner](https://github.com/Alanliang666/argos-poly)
+> *asyncio · WebSocket · REST API · Real-time Data Pipeline*
+
+A real-time arbitrage scanner for prediction markets. Built around one design principle:
+eliminate unnecessary waiting at every layer of the pipeline.
+
+* Used **asyncio + WebSocket** to subscribe to live order book streams concurrently —
+  synchronous polling would've missed opportunities that close in seconds
+* Debugged a silent data issue: tracked it down to the REST API returning closed markets 
+  with no active order book, fixed with an upstream filter at ingestion
+
+### 3. [Computer Vision From Scratch](https://github.com/Alanliang666/cv-from-scratch-python)
+> *Pure Python · No OpenCV · Pixel-level Algorithm Implementation*
+
+Built image processing algorithms from scratch using only raw pixel RGB data — no cv2, no shortcuts.
+The point wasn't just to get the effect. It was to understand why it works.
+
+* Implemented ghost removal using **Euclidean distance in RGB space** to pick the most 
+  "average" pixel across multiple shots — the same math behind k-means and nearest-neighbor search
+* Built fire detection using per-pixel brightness ratios — threshold-based classification 
+  without any ML model
 
 ---
 
@@ -64,4 +89,6 @@ Here are a few projects that demonstrate my ability to handle complex logic, dat
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Alanliang666)
 
-_Thanks for visiting! Feel free to check out my repositories and critique my code. I'm always open to feedback._
+---
+
+_Thanks for stopping by! I'm always looking to connect, so feel free to check out my projects and reach out if you want to chat about code or AI._
